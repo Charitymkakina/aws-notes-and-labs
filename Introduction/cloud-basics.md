@@ -28,3 +28,16 @@ The Cloud Service Providers can be grouped into 3 tiers:
 3. `Local Zones`- Local Zones bring AWS services closer to users. Designed for ultra-low latency (milliseconds). Used for: Gaming, Real-time apps, media, and machine learning.
 4. `Edge Locations`- enables the content to be delivered to end users with lower latency.
 5. `AWS Outposts`- They extend AWS infrastructure to on-premises environments. Run AWS services in your own data center. Supports hybrid cloud setups. Useful for low-latency or local data requirements.
+
+# Tour of the AWS console
+Aws has global services
+1. IAM (Identity Access and Management)
+2. Route 53 (DNS service)
+3. CloudFront (Content Delivery Network)
+4. WAF (Web Application Firewall)
+
+Most AWS services are region-scoped
+1. EC2
+2. Beanstalk
+3. Lambda
+4. Rekognition

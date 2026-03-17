@@ -21,3 +21,10 @@ The Cloud Service Providers can be grouped into 3 tiers:
 1. Tier 1(Top tier)- They were in the market, they have a wide offering of services, and they are well recognized in the industry. They include: `AWS`, `Microsoft Azure`, `Google Cloud Platform`, and `Alibaba.`
 2. Tier 2(Mid-tier)- Backed by well-known tech companies, slow to innovate, and has turned into a specialization. They include: `IBM Cloud`, `Oracle Cloud`, `Huawei Cloud`, and `Tencent Cloud.`
 3. Tier 3(Light tier)- They are virtual private servers turned to offer core IAAS offerings. They are simple and cost-effective. They include: `Vultr`, `Digital Ocean`, and `Akamai Connected Cloud (Linode).`
+
+# AWS Global Infrastructure
+1. `Region`-They are physical locations around the world containing multiple data centers. A region is a cluster of data centers. Region names include: `us-east-1.`
+2. `Availability Zone`- is one or more discrete data centers within a region with redundant power, networking, and connectivity. AZs are separated from each other to ensure they are isolated from disasters. They are connected with high-bandwidth, ultra-low-latency networking. AZs name include: `us-east-1a, us-east-1b`
+3. `Local Zones`- Local Zones bring AWS services closer to users. Designed for ultra-low latency (milliseconds). Used for: Gaming, Real-time apps, media, and machine learning.
+4. `Edge Locations`- enables the content to be delivered to end users with lower latency.
+5. `AWS Outposts`- They extend AWS infrastructure to on-premises environments. Run AWS services in your own data center. Supports hybrid cloud setups. Useful for low-latency or local data requirements.

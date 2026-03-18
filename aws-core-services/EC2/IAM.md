@@ -27,3 +27,17 @@ Common roles:
 1. EC2 Instance roles
 2. Lambda Function roles
 3. Roles for CloudFormation
+
+# IAM Password Policy and MFA
+To protect users and groups from compromise, AWS provides two key security mechanisms:
+
+1. `Password Policy.`
+A `Password Policy` enforces strong passwords for IAM users. By setting a minimum password length that requires specific character types (e.g., numbers, symbols), users can change their own passwords, enforce password expiration, and prevent password reuse
+
+The purpose of a password policy is to help protect against brute-force attacks by ensuring strong and regularly updated passwords.
+
+2. `Multi-Factor Authentication (MFA).`
+
+`Multi-Factor Authentication (MFA)` adds an extra layer of security. By combining something you know (password) and something you have (security device)
+
+Benefit: Even if a password is compromised, the account remains secure because the attacker would also need access to the physical MFA device.
